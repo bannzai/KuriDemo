@@ -1,5 +1,5 @@
 TemplateRootPath: ./
-DefaltTemplateDirectoryName: KuriTemplate
+DefaltTemplateDirectoryName: ./KuriTemplate/
 ProjectRootPath: ./
 ProjectFileName: KuriDemo.xcodeproj
 GenerateRootPath: ./KuriDemo/

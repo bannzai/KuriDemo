@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0J8RFJTVLDBUMVF25N4R54V7 /* KuriBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = X7OJPS6E6SUPBA6VHXEE8VX3 /* KuriBuilder.swift */; };
+		0P4TPB6F0GQJZW82102UNWDO /* KuriDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OQ5H7CLF8YMGW9MRC9WN3FYD /* KuriDataStore.swift */; };
+		2364G9VZ7AYZWC89E7HTPMLD /* KuriTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CONB3667FSBCSOQ6U463IU5Z /* KuriTranslator.swift */; };
+		62OB8C9VFU6X5XBV5HML7K3B /* KuriEntityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = RA6R7YT9X3NN44O00D3M86KZ /* KuriEntityImpl.swift */; };
+		6HKFSKEC0BSRM93TFF8M8MMU /* KuriDataStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = WN99OE3CUCCW80HEW9S6FSVP /* KuriDataStoreImpl.swift */; };
+		732MI139IR2IEC1X9G5NOK1G /* KuriUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0GQTEAIGO6BEDFVZIU7SSG1O /* KuriUseCase.swift */; };
+		8L9YU4TLE4WV57KZU0BC6IC0 /* KuriUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FJOWNRDHL2A6OIB49SYG4HG6 /* KuriUseCaseImpl.swift */; };
 		9C64AD9E1E0D749300CC3E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64AD9D1E0D749300CC3E85 /* AppDelegate.swift */; };
 		9C64ADA01E0D749300CC3E85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64AD9F1E0D749300CC3E85 /* ViewController.swift */; };
 		9C64ADA31E0D749300CC3E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C64ADA11E0D749300CC3E85 /* Main.storyboard */; };
@@ -14,6 +21,19 @@
 		9C64ADA81E0D749300CC3E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C64ADA61E0D749300CC3E85 /* LaunchScreen.storyboard */; };
 		9C64ADB31E0D749300CC3E85 /* KuriDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64ADB21E0D749300CC3E85 /* KuriDemoTests.swift */; };
 		9C64ADBE1E0D749300CC3E85 /* KuriDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64ADBD1E0D749300CC3E85 /* KuriDemoUITests.swift */; };
+		EC7XU79V3K8ZXJED61VQG73Z /* KuriBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = UIJ1Q3IJH6PX1T3P6U0OJCAX /* KuriBuilderImpl.swift */; };
+		F3X7FW5O0PVSCKQ46SBULBB2 /* KuriRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DUJBCHIJLSTMUHJHUQ0OGWOJ /* KuriRepository.swift */; };
+		FF8YW2IX9DGU5Q1HO7NKE5PI /* KuriEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = GMJQGTL5ZR7I3N5UHTDWUKH3 /* KuriEntity.swift */; };
+		GC05DBOKKW4TAAJJHZYU39OO /* KuriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CNGGVHE7NZMCQBD8E6Q3PKPV /* KuriViewController.swift */; };
+		IEVKXVK8K3320HZGOKOGO9KV /* KuriPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OSSJQPNAUAKWG8PBK5G9NMTO /* KuriPresenter.swift */; };
+		INU59OFF3HM4SCTKGXAE7X1H /* KuriRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = OCEFZIBV3LP7YYUT1IRR6XKP /* KuriRepositoryImpl.swift */; };
+		J1R6NW7KFKRXB8HFYVHQAZLL /* KuriModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6Y2DM4ZZ2GGKJQY827ZC35XU /* KuriModelImpl.swift */; };
+		L4X0J90AAKNBE5NYTFSY5GIP /* KuriPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BT3QJLE2LV8NKFLULHQ50O1 /* KuriPresenterImpl.swift */; };
+		MCL8O7VQKI3FAXEL8ARPLG9J /* KuriWireframeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0UHWANU0NDLIM4C19NHWBWQ7 /* KuriWireframeImpl.swift */; };
+		PC16ZCOD7SIQVXXPPIYWU800 /* KuriTranslatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4P6FN02HJDREFE4F2CQKKEOY /* KuriTranslatorImpl.swift */; };
+		V36IEVPO2VN7OY94727RP4Y1 /* KuriWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = QKYPB7OPO5IDZSMMSSFSHB4N /* KuriWireframe.swift */; };
+		WYYQO9IQV67GJ3WAY5TLAKDD /* KuriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CPISTMUYDSRQX7BT3ENV2JUC /* KuriModel.swift */; };
+		YBS3W6TYR54SGW52JIQALSP5 /* KuriViewControllerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = L0PJB6F9UUZPPB6PR2YVKWNW /* KuriViewControllerImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0GQTEAIGO6BEDFVZIU7SSG1O /* KuriUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriUseCase.swift; sourceTree = "<group>"; };
+		0UHWANU0NDLIM4C19NHWBWQ7 /* KuriWireframeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriWireframeImpl.swift; sourceTree = "<group>"; };
+		4P6FN02HJDREFE4F2CQKKEOY /* KuriTranslatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriTranslatorImpl.swift; sourceTree = "<group>"; };
+		6Y2DM4ZZ2GGKJQY827ZC35XU /* KuriModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriModelImpl.swift; sourceTree = "<group>"; };
+		9BT3QJLE2LV8NKFLULHQ50O1 /* KuriPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriPresenterImpl.swift; sourceTree = "<group>"; };
 		9C64AD9A1E0D749300CC3E85 /* KuriDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KuriDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C64AD9D1E0D749300CC3E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C64AD9F1E0D749300CC3E85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,21 @@
 		9C64ADB91E0D749300CC3E85 /* KuriDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuriDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C64ADBD1E0D749300CC3E85 /* KuriDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuriDemoUITests.swift; sourceTree = "<group>"; };
 		9C64ADBF1E0D749300CC3E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CNGGVHE7NZMCQBD8E6Q3PKPV /* KuriViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriViewController.swift; sourceTree = "<group>"; };
+		CONB3667FSBCSOQ6U463IU5Z /* KuriTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriTranslator.swift; sourceTree = "<group>"; };
+		CPISTMUYDSRQX7BT3ENV2JUC /* KuriModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriModel.swift; sourceTree = "<group>"; };
+		DUJBCHIJLSTMUHJHUQ0OGWOJ /* KuriRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriRepository.swift; sourceTree = "<group>"; };
+		FJOWNRDHL2A6OIB49SYG4HG6 /* KuriUseCaseImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriUseCaseImpl.swift; sourceTree = "<group>"; };
+		GMJQGTL5ZR7I3N5UHTDWUKH3 /* KuriEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriEntity.swift; sourceTree = "<group>"; };
+		L0PJB6F9UUZPPB6PR2YVKWNW /* KuriViewControllerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriViewControllerImpl.swift; sourceTree = "<group>"; };
+		OCEFZIBV3LP7YYUT1IRR6XKP /* KuriRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriRepositoryImpl.swift; sourceTree = "<group>"; };
+		OQ5H7CLF8YMGW9MRC9WN3FYD /* KuriDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriDataStore.swift; sourceTree = "<group>"; };
+		OSSJQPNAUAKWG8PBK5G9NMTO /* KuriPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriPresenter.swift; sourceTree = "<group>"; };
+		QKYPB7OPO5IDZSMMSSFSHB4N /* KuriWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriWireframe.swift; sourceTree = "<group>"; };
+		RA6R7YT9X3NN44O00D3M86KZ /* KuriEntityImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriEntityImpl.swift; sourceTree = "<group>"; };
+		UIJ1Q3IJH6PX1T3P6U0OJCAX /* KuriBuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriBuilderImpl.swift; sourceTree = "<group>"; };
+		WN99OE3CUCCW80HEW9S6FSVP /* KuriDataStoreImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriDataStoreImpl.swift; sourceTree = "<group>"; };
+		X7OJPS6E6SUPBA6VHXEE8VX3 /* KuriBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +114,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7MV7T5OJJYUGTQYRANF7LVVJ /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				QKYPB7OPO5IDZSMMSSFSHB4N /* KuriWireframe.swift */,
+				0UHWANU0NDLIM4C19NHWBWQ7 /* KuriWireframeImpl.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		7TFOTLCUPZYB6Q5ROOL9IKOZ /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				OQ5H7CLF8YMGW9MRC9WN3FYD /* KuriDataStore.swift */,
+				WN99OE3CUCCW80HEW9S6FSVP /* KuriDataStoreImpl.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
 		9C64AD911E0D749300CC3E85 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +161,7 @@
 				9C64ADA41E0D749300CC3E85 /* Assets.xcassets */,
 				9C64ADA61E0D749300CC3E85 /* LaunchScreen.storyboard */,
 				9C64ADA91E0D749300CC3E85 /* Info.plist */,
+				LQB7F6PD78CAMEYLKV3GCQ82 /* Kuri */,
 			);
 			path = KuriDemo;
 			sourceTree = "<group>";
@@ -123,6 +182,95 @@
 				9C64ADBF1E0D749300CC3E85 /* Info.plist */,
 			);
 			path = KuriDemoUITests;
+			sourceTree = "<group>";
+		};
+		KETKBP863LAFP3L8P6C0K99J /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				X7OJPS6E6SUPBA6VHXEE8VX3 /* KuriBuilder.swift */,
+				UIJ1Q3IJH6PX1T3P6U0OJCAX /* KuriBuilderImpl.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		LQB7F6PD78CAMEYLKV3GCQ82 /* Kuri */ = {
+			isa = PBXGroup;
+			children = (
+				ZE1Z2UYQYD2S4FNNN7NT99TD /* Entity */,
+				7TFOTLCUPZYB6Q5ROOL9IKOZ /* DataStore */,
+				O4HDI98VNATXGELGFWXQQBLR /* Repository */,
+				PSG43SEQ2IK99NMS1RE3195D /* UseCase */,
+				Q3PHZN1XJ9H44OR6I0ZHQGK8 /* Translator */,
+				NUUC13RLMKLJG6GPPIA2YM1L /* Model */,
+				PFOFJ3X8X29Z95GA2BCWEFTV /* Presenter */,
+				M5J9GZIRXY8EK7QUG8ZR6GTF /* View */,
+				7MV7T5OJJYUGTQYRANF7LVVJ /* Wireframe */,
+				KETKBP863LAFP3L8P6C0K99J /* Builder */,
+			);
+			path = Kuri;
+			sourceTree = "<group>";
+		};
+		M5J9GZIRXY8EK7QUG8ZR6GTF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CNGGVHE7NZMCQBD8E6Q3PKPV /* KuriViewController.swift */,
+				L0PJB6F9UUZPPB6PR2YVKWNW /* KuriViewControllerImpl.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		NUUC13RLMKLJG6GPPIA2YM1L /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CPISTMUYDSRQX7BT3ENV2JUC /* KuriModel.swift */,
+				6Y2DM4ZZ2GGKJQY827ZC35XU /* KuriModelImpl.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		O4HDI98VNATXGELGFWXQQBLR /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				DUJBCHIJLSTMUHJHUQ0OGWOJ /* KuriRepository.swift */,
+				OCEFZIBV3LP7YYUT1IRR6XKP /* KuriRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		PFOFJ3X8X29Z95GA2BCWEFTV /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				OSSJQPNAUAKWG8PBK5G9NMTO /* KuriPresenter.swift */,
+				9BT3QJLE2LV8NKFLULHQ50O1 /* KuriPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		PSG43SEQ2IK99NMS1RE3195D /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				0GQTEAIGO6BEDFVZIU7SSG1O /* KuriUseCase.swift */,
+				FJOWNRDHL2A6OIB49SYG4HG6 /* KuriUseCaseImpl.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		Q3PHZN1XJ9H44OR6I0ZHQGK8 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				CONB3667FSBCSOQ6U463IU5Z /* KuriTranslator.swift */,
+				4P6FN02HJDREFE4F2CQKKEOY /* KuriTranslatorImpl.swift */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		ZE1Z2UYQYD2S4FNNN7NT99TD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				GMJQGTL5ZR7I3N5UHTDWUKH3 /* KuriEntity.swift */,
+				RA6R7YT9X3NN44O00D3M86KZ /* KuriEntityImpl.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +409,26 @@
 			files = (
 				9C64ADA01E0D749300CC3E85 /* ViewController.swift in Sources */,
 				9C64AD9E1E0D749300CC3E85 /* AppDelegate.swift in Sources */,
+				FF8YW2IX9DGU5Q1HO7NKE5PI /* KuriEntity.swift in Sources */,
+				62OB8C9VFU6X5XBV5HML7K3B /* KuriEntityImpl.swift in Sources */,
+				0P4TPB6F0GQJZW82102UNWDO /* KuriDataStore.swift in Sources */,
+				6HKFSKEC0BSRM93TFF8M8MMU /* KuriDataStoreImpl.swift in Sources */,
+				F3X7FW5O0PVSCKQ46SBULBB2 /* KuriRepository.swift in Sources */,
+				INU59OFF3HM4SCTKGXAE7X1H /* KuriRepositoryImpl.swift in Sources */,
+				732MI139IR2IEC1X9G5NOK1G /* KuriUseCase.swift in Sources */,
+				8L9YU4TLE4WV57KZU0BC6IC0 /* KuriUseCaseImpl.swift in Sources */,
+				2364G9VZ7AYZWC89E7HTPMLD /* KuriTranslator.swift in Sources */,
+				PC16ZCOD7SIQVXXPPIYWU800 /* KuriTranslatorImpl.swift in Sources */,
+				WYYQO9IQV67GJ3WAY5TLAKDD /* KuriModel.swift in Sources */,
+				J1R6NW7KFKRXB8HFYVHQAZLL /* KuriModelImpl.swift in Sources */,
+				IEVKXVK8K3320HZGOKOGO9KV /* KuriPresenter.swift in Sources */,
+				L4X0J90AAKNBE5NYTFSY5GIP /* KuriPresenterImpl.swift in Sources */,
+				GC05DBOKKW4TAAJJHZYU39OO /* KuriViewController.swift in Sources */,
+				YBS3W6TYR54SGW52JIQALSP5 /* KuriViewControllerImpl.swift in Sources */,
+				V36IEVPO2VN7OY94727RP4Y1 /* KuriWireframe.swift in Sources */,
+				MCL8O7VQKI3FAXEL8ARPLG9J /* KuriWireframeImpl.swift in Sources */,
+				0J8RFJTVLDBUMVF25N4R54V7 /* KuriBuilder.swift in Sources */,
+				EC7XU79V3K8ZXJED61VQG73Z /* KuriBuilderImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
