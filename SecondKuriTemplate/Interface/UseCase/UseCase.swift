@@ -1,5 +1,5 @@
 //
-//  __DATASTORE__.swift
+//  __USECASE__.swift
 //  Kuri
 //
 //  Created by __USERNAME__ on __DATE__.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol __DATASTORE__ {
-    func fetch(_ closure: (__ENTITY__) -> Void) throws 
+protocol __USECASE__ {
+    func fetch() throws -> ((__MODEL__) -> Void) 
 }

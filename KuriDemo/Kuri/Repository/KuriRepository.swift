@@ -7,5 +7,5 @@
 //
 
 protocol KuriRepository {
-    func fetch() throws -> ((KuriEntity) -> Void) 
+    func fetch(_ closure: (KuriEntity) -> Void) throws 
 }

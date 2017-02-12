@@ -9,5 +9,5 @@
 import Foundation
 
 protocol KuriDataStore {
-    func fetch() throws -> ((KuriEntity) -> Void) 
+    func fetch(_ closure: (KuriEntity) -> Void) throws 
 }

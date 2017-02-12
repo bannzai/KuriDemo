@@ -9,8 +9,7 @@
 import Foundation
 
 struct KuriDataStoreImpl: KuriDataStore {
-    func fetch() throws -> ((KuriEntity) -> Void)  {
+    func fetch(_ closure: (KuriEntity) -> Void) throws  {
         // you can write get entity method
-        fatalError()
     }
 }

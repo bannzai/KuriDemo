@@ -9,7 +9,8 @@
 import Foundation
 
 struct __DATASTORE__Impl: __DATASTORE__ {
-    func fetch(_ closure: (__ENTITY__) -> Void) throws  {
+    func fetch() throws -> ((__ENTITY__) -> Void)  {
         // you can write get entity method
+        fatalError()
     }
 }

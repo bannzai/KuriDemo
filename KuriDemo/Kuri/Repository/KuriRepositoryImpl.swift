@@ -15,7 +15,7 @@ struct KuriRepositoryImpl: KuriRepository {
         self.dataStore = dataStore
     }
     
-    func fetch() throws -> ((KuriEntity) -> Void)  {
-        return try dataStore.fetch()
+    func fetch(_ closure: (KuriEntity) -> Void) throws  {
+        return try dataStore.fetch(closure)
     }
 }

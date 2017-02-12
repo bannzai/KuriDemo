@@ -9,5 +9,5 @@
 import Foundation
 
 protocol KuriUseCase {
-    func fetch() throws -> ((KuriModel) -> Void) 
+    func fetch(_ closure: (KuriModel) -> Void) throws 
 }

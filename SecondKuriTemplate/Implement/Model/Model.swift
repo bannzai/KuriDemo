@@ -1,5 +1,5 @@
 //
-//  __DATASTORE__.swift
+//  __MODEL__Impl.swift
 //  Kuri
 //
 //  Created by __USERNAME__ on __DATE__.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol __DATASTORE__ {
-    func fetch(_ closure: (__ENTITY__) -> Void) throws 
+struct __MODEL__Impl: __MODEL__ {
+    let id: Int
 }

@@ -20,7 +20,11 @@ struct KuriUseCaseImpl: KuriUseCase {
         self.translator = translator
     }
     
-    func fetch() throws -> ((KuriModel) -> Void)  {
-        
+    func fetch(_ closure: (KuriModel) -> Void) throws  {
+        try repository.fetch { 
+           closure(
+              translator.translate(from: $0)
+           )
+      }
     }
 }

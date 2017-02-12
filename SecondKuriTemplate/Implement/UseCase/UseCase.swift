@@ -20,11 +20,7 @@ struct __USECASE__Impl: __USECASE__ {
         self.translator = translator
     }
     
-    func fetch(_ closure: (__MODEL__) -> Void) throws  {
-        try repository.fetch { 
-           closure(
-              translator.translate(from: $0)
-           )
-      }
+    func fetch() throws -> ((__MODEL__) -> Void)  {
+        return try repository.fetch()
     }
 }
