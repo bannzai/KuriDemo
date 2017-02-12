@@ -1,8 +1,0 @@
-TemplateRootPath: ./
-ProjectRootPath: ./
-ProjectFileName: KuriDemo.xcodeproj
-GenerateRootPath: ./KuriDemo/
-Target: KuriDemo
-
-View:
- CustomSuffix: ViewController
