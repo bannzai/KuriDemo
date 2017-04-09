@@ -13,7 +13,7 @@ protocol __PREFIX__View: class {
 }
 
 
-class __PREFIX__View: UIViewController {
+class __PREFIX__ViewController: UIViewController {
     
     private var presenter: __PREFIX__Presenter!
     
@@ -28,6 +28,6 @@ class __PREFIX__View: UIViewController {
     }
 }
 
-extension __PREFIX__View: __PREFIX__View {
+extension __PREFIX__ViewController: __PREFIX__View {
     
 }
