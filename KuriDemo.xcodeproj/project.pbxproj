@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		084Z7HAYI6YQZDX1Q6BT2S5X /* HogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = PUI28JSK0OZSV1VHCI7NIS0S /* HogeViewController.swift */; };
-		0COM2PP29RCCKVL5AAT1S3HV /* KuriViewControllerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0QXFKYRJ1NJ4PNPN2O1C4HGH /* KuriViewControllerImpl.swift */; };
 		29BMWGFSP13ZD8O8QGFXRC12 /* HogeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = YB89BLNX6Y2MVELR66GIZZAK /* HogeUseCase.swift */; };
-		2VP2EFYNOON8TL24ZA105JSV /* KuriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3KUTZ5RQOSXUK5DVRJE5HW3E /* KuriModel.swift */; };
 		6GR9A4R1DAT5P3HFYOUA16HP /* HogeTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = JVQZ7LY05OXUSRD8Y9UXOA6N /* HogeTranslator.swift */; };
-		72H2NMWLS708YAFWN1KECV0W /* KuriPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6J8ZRKDUY0LQ9NUBRKCUNJO /* KuriPresenterImpl.swift */; };
 		7NJ6SQESVWTPY6ES48I61BYH /* HogeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = TYRCDWT02QU8DHH99P9UGUCY /* HogeRepository.swift */; };
-		8IBHZDCZUVMBZ3ARYYUZ01E7 /* KuriRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = Z3B659RKUW2J2QGMZRX6V6TZ /* KuriRepository.swift */; };
 		8W5EUIWD1NELFDGUPZM48UMJ /* HogeTranslatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = QSAWH4WK2MB7X43UF7WXICC2 /* HogeTranslatorImpl.swift */; };
 		9BIOI58KU65SY9BEOKDM02U5 /* HogePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = HXL2I9XO5PQB47JFK8Q7KYJQ /* HogePresenter.swift */; };
 		9C64AD9E1E0D749300CC3E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64AD9D1E0D749300CC3E85 /* AppDelegate.swift */; };
@@ -25,35 +21,19 @@
 		9C64ADB31E0D749300CC3E85 /* KuriDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64ADB21E0D749300CC3E85 /* KuriDemoTests.swift */; };
 		9C64ADBE1E0D749300CC3E85 /* KuriDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C64ADBD1E0D749300CC3E85 /* KuriDemoUITests.swift */; };
 		BMG4JDMZU9D5UEQUMVYQOVDN /* HogeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = N9FFSP4490MMQUV9LXC1Q5XH /* HogeModel.swift */; };
-		BTCKBPUG89VS69VYDP0BP18E /* KuriDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = M1PPX00F27T5IT3ZQCGL56HM /* KuriDataStore.swift */; };
-		BVGJLI3NEY7VD821SH3B1YMZ /* KuriPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEW7NP7MI74K655MM5V4CPUT /* KuriPresenter.swift */; };
-		BVIXGHSNISAYDMCAUMP2L0A4 /* KuriTranslatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0RIH8Q1KUT2FGBLQ80NXBKEV /* KuriTranslatorImpl.swift */; };
-		D7KWBH0YYHG5A9I4TFEKNK80 /* KuriDataStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9PC88HGDO6QRGTU6BDO29FLR /* KuriDataStoreImpl.swift */; };
 		HEGQEKM7F12UNWIWXVJ6OZ52 /* HogeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = MAKHUGYIXNYN5CU20Z4HGLS6 /* HogeEntity.swift */; };
-		I5ZGOU8IC8ZRNLSTDE41R4PX /* KuriBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = O2C4W0251REVQ0HCWXO8CBW5 /* KuriBuilder.swift */; };
 		I6U3IHB7OZ0N5TW951N9ZX35 /* HogeDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63T1SSELHDD7HXW77D6NRS8O /* HogeDataStore.swift */; };
-		J3LY46EZAEJNUJYOZ85SQR86 /* KuriUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = WWO06VPWFGAMNTQPWQICHO0W /* KuriUseCaseImpl.swift */; };
-		J9UVZH2EDP4WJV6O2YFKX0ZA /* KuriEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = G91QYURE7KZ2CLFYUVUCNNJ4 /* KuriEntity.swift */; };
-		JQ132LFJPU042GU9AYPUX2AO /* KuriWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = SFPHQR7BMK02AKDGIAF6JWVX /* KuriWireframe.swift */; };
 		JT09POXGFLZ4H4S1G3TKN5JM /* HogeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BOSZRFP2818H2R9R1XOBUC /* HogeBuilder.swift */; };
 		K3VRODKOPYA6BC34R4ESCZLX /* HogePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = Q5M7BZ4WA8I93RRCT2G13URJ /* HogePresenterImpl.swift */; };
 		L1J1FNDJQXA9KWAHLGNJZY1I /* HogeRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = GRBQETYZ6LXKB9WRVY1U85A9 /* HogeRepositoryImpl.swift */; };
 		LJZDA8KYI8JDF1QXO7EL8X8N /* HogeUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = I95FJ7RXUE9GPZVFP2D4WVJG /* HogeUseCaseImpl.swift */; };
 		LSRH3RJCUFPTDQ2205Y8T48Q /* HogeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = Q801X6264C49J2A21541YS14 /* HogeWireframe.swift */; };
-		PFIBJT7R7ZCXZW0CZR2SCZOX /* KuriEntityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = IPUPVYR3K34HTJ2IPXZYQ50V /* KuriEntityImpl.swift */; };
-		PSV71T3HPFDD9PYOTK8YQE79 /* KuriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = QTDMR0M6RK4YXHERRBRCQ8NY /* KuriViewController.swift */; };
 		QDH9ATR75CTS3BDF2NKWEP6K /* HogeViewControllerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5WHY4ISQJW9VLV8NC3FKC33L /* HogeViewControllerImpl.swift */; };
-		QJMIW10C6RW81PAFUQGAUD07 /* KuriBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AGYXZ609ZRZC82X9IWTG2F /* KuriBuilderImpl.swift */; };
 		S17U8UYPI5OP24G9V2IS4R0S /* HogeBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = UL32MEX7QZ705N6KA9735OUU /* HogeBuilderImpl.swift */; };
-		SPUCZ2F1Z255FLDSDI9PR3ZF /* KuriTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = MLH50TJ3RL4QVRF4VX016QPY /* KuriTranslator.swift */; };
-		U2IJ6WCBIL1BUSUQTWIA2UBQ /* KuriWireframeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = UP12T46AURLXTGSDM8IUB93J /* KuriWireframeImpl.swift */; };
 		U4YRMZSJNXVYQUYFTRG77ZJB /* HogeEntityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1VU4XLN7R9NP62VFVS9P5D02 /* HogeEntityImpl.swift */; };
 		WCJYVP0INKFUNBY38B0EX1Q9 /* HogeDataStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = VP5U0FHSMPQD9G7D7QI2TJ95 /* HogeDataStoreImpl.swift */; };
-		WQKH7O918LRJAVN30Q3K1A4M /* KuriRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = MWJPS8RSAULUH75VXWYLIMWS /* KuriRepositoryImpl.swift */; };
 		X035WPA2KVW22XSMF25NUY59 /* HogeWireframeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = WZ8S1OWQE0JYGJMM7VM7V819 /* HogeWireframeImpl.swift */; };
-		XMYH5JGRDIG2W3FDAN4QLCKW /* KuriUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = USX4ITMW4EAGXZQAT4WC27GS /* KuriUseCase.swift */; };
 		XRVZB05IYYXJJKF1DRUFETRH /* HogeModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = WX2VQKFTXXK9RZOYKE4KD58V /* HogeModelImpl.swift */; };
-		YIT7AGYD0WPN7Y0MH2KPE9B8 /* KuriModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = OT3MDMZTVL87ZQ9AJ5OKMULI /* KuriModelImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,11 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0QXFKYRJ1NJ4PNPN2O1C4HGH /* KuriViewControllerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriViewControllerImpl.swift; sourceTree = "<group>"; };
-		0RIH8Q1KUT2FGBLQ80NXBKEV /* KuriTranslatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriTranslatorImpl.swift; sourceTree = "<group>"; };
 		1VU4XLN7R9NP62VFVS9P5D02 /* HogeEntityImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeEntityImpl.swift; sourceTree = "<group>"; };
-		29AGYXZ609ZRZC82X9IWTG2F /* KuriBuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriBuilderImpl.swift; sourceTree = "<group>"; };
-		3KUTZ5RQOSXUK5DVRJE5HW3E /* KuriModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriModel.swift; sourceTree = "<group>"; };
 		5WHY4ISQJW9VLV8NC3FKC33L /* HogeViewControllerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeViewControllerImpl.swift; sourceTree = "<group>"; };
 		63T1SSELHDD7HXW77D6NRS8O /* HogeDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeDataStore.swift; sourceTree = "<group>"; };
 		79BOSZRFP2818H2R9R1XOBUC /* HogeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeBuilder.swift; sourceTree = "<group>"; };
@@ -95,38 +71,22 @@
 		9C64ADB91E0D749300CC3E85 /* KuriDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuriDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C64ADBD1E0D749300CC3E85 /* KuriDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuriDemoUITests.swift; sourceTree = "<group>"; };
 		9C64ADBF1E0D749300CC3E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9PC88HGDO6QRGTU6BDO29FLR /* KuriDataStoreImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriDataStoreImpl.swift; sourceTree = "<group>"; };
-		A6J8ZRKDUY0LQ9NUBRKCUNJO /* KuriPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriPresenterImpl.swift; sourceTree = "<group>"; };
-		FEW7NP7MI74K655MM5V4CPUT /* KuriPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriPresenter.swift; sourceTree = "<group>"; };
-		G91QYURE7KZ2CLFYUVUCNNJ4 /* KuriEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriEntity.swift; sourceTree = "<group>"; };
 		GRBQETYZ6LXKB9WRVY1U85A9 /* HogeRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeRepositoryImpl.swift; sourceTree = "<group>"; };
 		HXL2I9XO5PQB47JFK8Q7KYJQ /* HogePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogePresenter.swift; sourceTree = "<group>"; };
 		I95FJ7RXUE9GPZVFP2D4WVJG /* HogeUseCaseImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeUseCaseImpl.swift; sourceTree = "<group>"; };
-		IPUPVYR3K34HTJ2IPXZYQ50V /* KuriEntityImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriEntityImpl.swift; sourceTree = "<group>"; };
 		JVQZ7LY05OXUSRD8Y9UXOA6N /* HogeTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeTranslator.swift; sourceTree = "<group>"; };
-		M1PPX00F27T5IT3ZQCGL56HM /* KuriDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriDataStore.swift; sourceTree = "<group>"; };
 		MAKHUGYIXNYN5CU20Z4HGLS6 /* HogeEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeEntity.swift; sourceTree = "<group>"; };
-		MLH50TJ3RL4QVRF4VX016QPY /* KuriTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriTranslator.swift; sourceTree = "<group>"; };
-		MWJPS8RSAULUH75VXWYLIMWS /* KuriRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriRepositoryImpl.swift; sourceTree = "<group>"; };
 		N9FFSP4490MMQUV9LXC1Q5XH /* HogeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeModel.swift; sourceTree = "<group>"; };
-		O2C4W0251REVQ0HCWXO8CBW5 /* KuriBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriBuilder.swift; sourceTree = "<group>"; };
-		OT3MDMZTVL87ZQ9AJ5OKMULI /* KuriModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriModelImpl.swift; sourceTree = "<group>"; };
 		PUI28JSK0OZSV1VHCI7NIS0S /* HogeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeViewController.swift; sourceTree = "<group>"; };
 		Q5M7BZ4WA8I93RRCT2G13URJ /* HogePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogePresenterImpl.swift; sourceTree = "<group>"; };
 		Q801X6264C49J2A21541YS14 /* HogeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeWireframe.swift; sourceTree = "<group>"; };
 		QSAWH4WK2MB7X43UF7WXICC2 /* HogeTranslatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeTranslatorImpl.swift; sourceTree = "<group>"; };
-		QTDMR0M6RK4YXHERRBRCQ8NY /* KuriViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriViewController.swift; sourceTree = "<group>"; };
-		SFPHQR7BMK02AKDGIAF6JWVX /* KuriWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriWireframe.swift; sourceTree = "<group>"; };
 		TYRCDWT02QU8DHH99P9UGUCY /* HogeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeRepository.swift; sourceTree = "<group>"; };
 		UL32MEX7QZ705N6KA9735OUU /* HogeBuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeBuilderImpl.swift; sourceTree = "<group>"; };
-		UP12T46AURLXTGSDM8IUB93J /* KuriWireframeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriWireframeImpl.swift; sourceTree = "<group>"; };
-		USX4ITMW4EAGXZQAT4WC27GS /* KuriUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriUseCase.swift; sourceTree = "<group>"; };
 		VP5U0FHSMPQD9G7D7QI2TJ95 /* HogeDataStoreImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeDataStoreImpl.swift; sourceTree = "<group>"; };
-		WWO06VPWFGAMNTQPWQICHO0W /* KuriUseCaseImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriUseCaseImpl.swift; sourceTree = "<group>"; };
 		WX2VQKFTXXK9RZOYKE4KD58V /* HogeModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeModelImpl.swift; sourceTree = "<group>"; };
 		WZ8S1OWQE0JYGJMM7VM7V819 /* HogeWireframeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeWireframeImpl.swift; sourceTree = "<group>"; };
 		YB89BLNX6Y2MVELR66GIZZAK /* HogeUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogeUseCase.swift; sourceTree = "<group>"; };
-		Z3B659RKUW2J2QGMZRX6V6TZ /* KuriRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KuriRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,15 +132,6 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
-		579IU7LF40P22C2HYCQ4B4MN /* DataStore */ = {
-			isa = PBXGroup;
-			children = (
-				M1PPX00F27T5IT3ZQCGL56HM /* KuriDataStore.swift */,
-				9PC88HGDO6QRGTU6BDO29FLR /* KuriDataStoreImpl.swift */,
-			);
-			path = DataStore;
-			sourceTree = "<group>";
-		};
 		9C64AD911E0D749300CC3E85 = {
 			isa = PBXGroup;
 			children = (
@@ -210,7 +161,6 @@
 				9C64ADA41E0D749300CC3E85 /* Assets.xcassets */,
 				9C64ADA61E0D749300CC3E85 /* LaunchScreen.storyboard */,
 				9C64ADA91E0D749300CC3E85 /* Info.plist */,
-				X4DFOBIVGGTEV3WEQRKGLVNE /* Kuri */,
 				9W8N21D4DPUR0R9JF8ITA650 /* Hoge */,
 			);
 			path = KuriDemo;
@@ -260,33 +210,6 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
-		GU66NJNGEV302XCJKXV6U1UI /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-				Z3B659RKUW2J2QGMZRX6V6TZ /* KuriRepository.swift */,
-				MWJPS8RSAULUH75VXWYLIMWS /* KuriRepositoryImpl.swift */,
-			);
-			path = Repository;
-			sourceTree = "<group>";
-		};
-		IIP6Y0LU4RHHVTHUKQ1GUBY5 /* Translator */ = {
-			isa = PBXGroup;
-			children = (
-				MLH50TJ3RL4QVRF4VX016QPY /* KuriTranslator.swift */,
-				0RIH8Q1KUT2FGBLQ80NXBKEV /* KuriTranslatorImpl.swift */,
-			);
-			path = Translator;
-			sourceTree = "<group>";
-		};
-		JFLP0BQ6P8U1GL9OL6OWKFF4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3KUTZ5RQOSXUK5DVRJE5HW3E /* KuriModel.swift */,
-				OT3MDMZTVL87ZQ9AJ5OKMULI /* KuriModelImpl.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		JTOCR9HGU8BA7RF57G2O787Q /* Entity */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,24 +235,6 @@
 				I95FJ7RXUE9GPZVFP2D4WVJG /* HogeUseCaseImpl.swift */,
 			);
 			path = UseCase;
-			sourceTree = "<group>";
-		};
-		OMMFV769PALRDZUEEDDV4LWW /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				O2C4W0251REVQ0HCWXO8CBW5 /* KuriBuilder.swift */,
-				29AGYXZ609ZRZC82X9IWTG2F /* KuriBuilderImpl.swift */,
-			);
-			path = Builder;
-			sourceTree = "<group>";
-		};
-		OZYM1AFKJ8ASNBUWEBJUDRZJ /* View */ = {
-			isa = PBXGroup;
-			children = (
-				QTDMR0M6RK4YXHERRBRCQ8NY /* KuriViewController.swift */,
-				0QXFKYRJ1NJ4PNPN2O1C4HGH /* KuriViewControllerImpl.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		P8DOX7SQO0W7ZI3BWUDV8N7O /* Model */ = {
@@ -359,64 +264,11 @@
 			path = Wireframe;
 			sourceTree = "<group>";
 		};
-		S1MHJDAI3PBJU7SBT7WHBXZG /* Wireframe */ = {
-			isa = PBXGroup;
-			children = (
-				SFPHQR7BMK02AKDGIAF6JWVX /* KuriWireframe.swift */,
-				UP12T46AURLXTGSDM8IUB93J /* KuriWireframeImpl.swift */,
-			);
-			path = Wireframe;
-			sourceTree = "<group>";
-		};
 		SAD4HMD4ZS72ESJTA1J7W50T /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
 				HXL2I9XO5PQB47JFK8Q7KYJQ /* HogePresenter.swift */,
 				Q5M7BZ4WA8I93RRCT2G13URJ /* HogePresenterImpl.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		WP225AIYLQQ6IQCEB5ZAB9GQ /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				G91QYURE7KZ2CLFYUVUCNNJ4 /* KuriEntity.swift */,
-				IPUPVYR3K34HTJ2IPXZYQ50V /* KuriEntityImpl.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		X4DFOBIVGGTEV3WEQRKGLVNE /* Kuri */ = {
-			isa = PBXGroup;
-			children = (
-				WP225AIYLQQ6IQCEB5ZAB9GQ /* Entity */,
-				579IU7LF40P22C2HYCQ4B4MN /* DataStore */,
-				GU66NJNGEV302XCJKXV6U1UI /* Repository */,
-				XU0J2IOOEDFTD2RP9Q1EAF06 /* UseCase */,
-				IIP6Y0LU4RHHVTHUKQ1GUBY5 /* Translator */,
-				JFLP0BQ6P8U1GL9OL6OWKFF4 /* Model */,
-				YOAOO4BUUBRXHDD0MQX1I52K /* Presenter */,
-				OZYM1AFKJ8ASNBUWEBJUDRZJ /* View */,
-				S1MHJDAI3PBJU7SBT7WHBXZG /* Wireframe */,
-				OMMFV769PALRDZUEEDDV4LWW /* Builder */,
-			);
-			path = Kuri;
-			sourceTree = "<group>";
-		};
-		XU0J2IOOEDFTD2RP9Q1EAF06 /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-				USX4ITMW4EAGXZQAT4WC27GS /* KuriUseCase.swift */,
-				WWO06VPWFGAMNTQPWQICHO0W /* KuriUseCaseImpl.swift */,
-			);
-			path = UseCase;
-			sourceTree = "<group>";
-		};
-		YOAOO4BUUBRXHDD0MQX1I52K /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				FEW7NP7MI74K655MM5V4CPUT /* KuriPresenter.swift */,
-				A6J8ZRKDUY0LQ9NUBRKCUNJO /* KuriPresenterImpl.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -557,26 +409,6 @@
 			files = (
 				9C64ADA01E0D749300CC3E85 /* ViewController.swift in Sources */,
 				9C64AD9E1E0D749300CC3E85 /* AppDelegate.swift in Sources */,
-				J9UVZH2EDP4WJV6O2YFKX0ZA /* KuriEntity.swift in Sources */,
-				PFIBJT7R7ZCXZW0CZR2SCZOX /* KuriEntityImpl.swift in Sources */,
-				BTCKBPUG89VS69VYDP0BP18E /* KuriDataStore.swift in Sources */,
-				D7KWBH0YYHG5A9I4TFEKNK80 /* KuriDataStoreImpl.swift in Sources */,
-				8IBHZDCZUVMBZ3ARYYUZ01E7 /* KuriRepository.swift in Sources */,
-				WQKH7O918LRJAVN30Q3K1A4M /* KuriRepositoryImpl.swift in Sources */,
-				XMYH5JGRDIG2W3FDAN4QLCKW /* KuriUseCase.swift in Sources */,
-				J3LY46EZAEJNUJYOZ85SQR86 /* KuriUseCaseImpl.swift in Sources */,
-				SPUCZ2F1Z255FLDSDI9PR3ZF /* KuriTranslator.swift in Sources */,
-				BVIXGHSNISAYDMCAUMP2L0A4 /* KuriTranslatorImpl.swift in Sources */,
-				2VP2EFYNOON8TL24ZA105JSV /* KuriModel.swift in Sources */,
-				YIT7AGYD0WPN7Y0MH2KPE9B8 /* KuriModelImpl.swift in Sources */,
-				BVGJLI3NEY7VD821SH3B1YMZ /* KuriPresenter.swift in Sources */,
-				72H2NMWLS708YAFWN1KECV0W /* KuriPresenterImpl.swift in Sources */,
-				PSV71T3HPFDD9PYOTK8YQE79 /* KuriViewController.swift in Sources */,
-				0COM2PP29RCCKVL5AAT1S3HV /* KuriViewControllerImpl.swift in Sources */,
-				JQ132LFJPU042GU9AYPUX2AO /* KuriWireframe.swift in Sources */,
-				U2IJ6WCBIL1BUSUQTWIA2UBQ /* KuriWireframeImpl.swift in Sources */,
-				I5ZGOU8IC8ZRNLSTDE41R4PX /* KuriBuilder.swift in Sources */,
-				QJMIW10C6RW81PAFUQGAUD07 /* KuriBuilderImpl.swift in Sources */,
 				HEGQEKM7F12UNWIWXVJ6OZ52 /* HogeEntity.swift in Sources */,
 				U4YRMZSJNXVYQUYFTRG77ZJB /* HogeEntityImpl.swift in Sources */,
 				I6U3IHB7OZ0N5TW951N9ZX35 /* HogeDataStore.swift in Sources */,
