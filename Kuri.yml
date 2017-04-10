@@ -1,5 +1,4 @@
-TemplateRootPath: ./
-DefaultTemplateDirectoryName: ./KuriTemplate/
+DefaultTemplateDirectoryPath: ./KuriTemplate/
 ProjectRootPath: ./
 ProjectFileName: KuriDemo.xcodeproj
 GenerateRootPath: ./KuriDemo/
